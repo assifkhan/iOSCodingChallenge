@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var searchTextField:UITextField!
     @IBOutlet weak var tableView:UITableView!{
         didSet{
             tableView.delegate = self

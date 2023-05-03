@@ -16,8 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eue-xQ-YBf">
+                                <rect key="frame" x="16" y="69" width="361" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0GN-ze-Qaz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="76k-e1-nIe">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="129" width="393" height="689"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CELL" id="rzP-K0-l1U">
@@ -35,12 +44,16 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="76k-e1-nIe" secondAttribute="bottom" id="5hn-gd-bdQ"/>
-                            <constraint firstItem="76k-e1-nIe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="FKF-an-asT"/>
+                            <constraint firstItem="eue-xQ-YBf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="JRZ-jR-qoN"/>
+                            <constraint firstItem="76k-e1-nIe" firstAttribute="top" secondItem="eue-xQ-YBf" secondAttribute="bottom" constant="10" id="PeM-5M-OaG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="76k-e1-nIe" secondAttribute="trailing" id="Wd3-pv-u68"/>
+                            <constraint firstItem="eue-xQ-YBf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kIZ-Or-AxI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eue-xQ-YBf" secondAttribute="trailing" constant="16" id="lh1-fL-x7n"/>
                             <constraint firstItem="76k-e1-nIe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ybl-Mu-cMz"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="searchTextField" destination="eue-xQ-YBf" id="FDL-2z-LRb"/>
                         <outlet property="tableView" destination="76k-e1-nIe" id="jic-9b-VdV"/>
                     </connections>
                 </viewController>
@@ -52,6 +65,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
