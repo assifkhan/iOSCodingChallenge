@@ -21,10 +21,24 @@
 		263607D12A02E93C00C0765E /* ItemDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607CF2A02E93C00C0765E /* ItemDetailsCell.swift */; };
 		263607D22A02E93C00C0765E /* ItemDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263607D02A02E93C00C0765E /* ItemDetailsCell.xib */; };
 		263607D52A02EEFC00C0765E /* UIImage+Downloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607D42A02EEFC00C0765E /* UIImage+Downloadable.swift */; };
+		263607D82A02FACA00C0765E /* ItemDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607CF2A02E93C00C0765E /* ItemDetailsCell.swift */; };
+		263607D92A02FACA00C0765E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607B12A02E1AA00C0765E /* ViewController.swift */; };
+		263607DA2A02FACA00C0765E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607AD2A02E1AA00C0765E /* AppDelegate.swift */; };
+		263607DB2A02FACA00C0765E /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607CD2A02E88E00C0765E /* ItemDetailViewController.swift */; };
+		263607DC2A02FACA00C0765E /* NetworkContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607C72A02E69B00C0765E /* NetworkContants.swift */; };
+		263607DD2A02FACA00C0765E /* UIImage+Downloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607D42A02EEFC00C0765E /* UIImage+Downloadable.swift */; };
+		263607DE2A02FACA00C0765E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607C22A02E5B700C0765E /* ListViewModel.swift */; };
+		263607DF2A02FACA00C0765E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607AF2A02E1AA00C0765E /* SceneDelegate.swift */; };
+		263607E02A02FACA00C0765E /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607C42A02E62700C0765E /* URLSessionManager.swift */; };
+		263607E12A02FACA00C0765E /* CharactersResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263607CA2A02E79400C0765E /* CharactersResponseModel.swift */; };
+		263607E42A02FACA00C0765E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263607B82A02E1AB00C0765E /* LaunchScreen.storyboard */; };
+		263607E52A02FACA00C0765E /* ItemDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263607D02A02E93C00C0765E /* ItemDetailsCell.xib */; };
+		263607E62A02FACA00C0765E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263607B62A02E1AB00C0765E /* Assets.xcassets */; };
+		263607E72A02FACA00C0765E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263607B32A02E1AA00C0765E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		263607AA2A02E1AA00C0765E /* iOSCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263607AA2A02E1AA00C0765E /* Simpsons Character Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Character Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		263607AD2A02E1AA00C0765E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		263607AF2A02E1AA00C0765E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		263607B12A02E1AA00C0765E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,10 +54,19 @@
 		263607CF2A02E93C00C0765E /* ItemDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsCell.swift; sourceTree = "<group>"; };
 		263607D02A02E93C00C0765E /* ItemDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemDetailsCell.xib; sourceTree = "<group>"; };
 		263607D42A02EEFC00C0765E /* UIImage+Downloadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Downloadable.swift"; sourceTree = "<group>"; };
+		263607EB2A02FACA00C0765E /* The Wire Character Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Wire Character Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		263607EC2A02FACA00C0765E /* Simpsons Character Viewer copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simpsons Character Viewer copy-Info.plist"; path = "/Users/asifkhan/Desktop/iOSCodingChallenge/iOSCodingChallenge/Simpsons Character Viewer copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		263607A72A02E1AA00C0765E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263607E22A02FACA00C0765E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,13 +81,15 @@
 			children = (
 				263607AC2A02E1AA00C0765E /* iOSCodingChallenge */,
 				263607AB2A02E1AA00C0765E /* Products */,
+				263607EC2A02FACA00C0765E /* Simpsons Character Viewer copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		263607AB2A02E1AA00C0765E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				263607AA2A02E1AA00C0765E /* iOSCodingChallenge.app */,
+				263607AA2A02E1AA00C0765E /* Simpsons Character Viewer.app */,
+				263607EB2A02FACA00C0765E /* The Wire Character Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		263607A92A02E1AA00C0765E /* iOSCodingChallenge */ = {
+		263607A92A02E1AA00C0765E /* Simpsons Character Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 263607BE2A02E1AB00C0765E /* Build configuration list for PBXNativeTarget "iOSCodingChallenge" */;
+			buildConfigurationList = 263607BE2A02E1AB00C0765E /* Build configuration list for PBXNativeTarget "Simpsons Character Viewer" */;
 			buildPhases = (
 				263607A62A02E1AA00C0765E /* Sources */,
 				263607A72A02E1AA00C0765E /* Frameworks */,
@@ -146,9 +171,26 @@
 			);
 			dependencies = (
 			);
-			name = iOSCodingChallenge;
+			name = "Simpsons Character Viewer";
 			productName = iOSCodingChallenge;
-			productReference = 263607AA2A02E1AA00C0765E /* iOSCodingChallenge.app */;
+			productReference = 263607AA2A02E1AA00C0765E /* Simpsons Character Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		263607D62A02FACA00C0765E /* The Wire Character Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263607E82A02FACA00C0765E /* Build configuration list for PBXNativeTarget "The Wire Character Viewer" */;
+			buildPhases = (
+				263607D72A02FACA00C0765E /* Sources */,
+				263607E22A02FACA00C0765E /* Frameworks */,
+				263607E32A02FACA00C0765E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Wire Character Viewer";
+			productName = iOSCodingChallenge;
+			productReference = 263607EB2A02FACA00C0765E /* The Wire Character Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				263607A92A02E1AA00C0765E /* iOSCodingChallenge */,
+				263607A92A02E1AA00C0765E /* Simpsons Character Viewer */,
+				263607D62A02FACA00C0765E /* The Wire Character Viewer */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +236,17 @@
 				263607D22A02E93C00C0765E /* ItemDetailsCell.xib in Resources */,
 				263607B72A02E1AB00C0765E /* Assets.xcassets in Resources */,
 				263607B52A02E1AA00C0765E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263607E32A02FACA00C0765E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263607E42A02FACA00C0765E /* LaunchScreen.storyboard in Resources */,
+				263607E52A02FACA00C0765E /* ItemDetailsCell.xib in Resources */,
+				263607E62A02FACA00C0765E /* Assets.xcassets in Resources */,
+				263607E72A02FACA00C0765E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +267,23 @@
 				263607B02A02E1AA00C0765E /* SceneDelegate.swift in Sources */,
 				263607C52A02E62700C0765E /* URLSessionManager.swift in Sources */,
 				263607CB2A02E79400C0765E /* CharactersResponseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263607D72A02FACA00C0765E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263607D82A02FACA00C0765E /* ItemDetailsCell.swift in Sources */,
+				263607D92A02FACA00C0765E /* ViewController.swift in Sources */,
+				263607DA2A02FACA00C0765E /* AppDelegate.swift in Sources */,
+				263607DB2A02FACA00C0765E /* ItemDetailViewController.swift in Sources */,
+				263607DC2A02FACA00C0765E /* NetworkContants.swift in Sources */,
+				263607DD2A02FACA00C0765E /* UIImage+Downloadable.swift in Sources */,
+				263607DE2A02FACA00C0765E /* ListViewModel.swift in Sources */,
+				263607DF2A02FACA00C0765E /* SceneDelegate.swift in Sources */,
+				263607E02A02FACA00C0765E /* URLSessionManager.swift in Sources */,
+				263607E12A02FACA00C0765E /* CharactersResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +442,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asifKhan.iOSCodingChallenge;
+				OTHER_SWIFT_FLAGS = "-D Simpsons";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -398,7 +470,62 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asifKhan.iOSCodingChallenge;
+				OTHER_SWIFT_FLAGS = "-D Simpsons";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		263607E92A02FACA00C0765E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Simpsons Character Viewer copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263607EA2A02FACA00C0765E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Simpsons Character Viewer copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -418,11 +545,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		263607BE2A02E1AB00C0765E /* Build configuration list for PBXNativeTarget "iOSCodingChallenge" */ = {
+		263607BE2A02E1AB00C0765E /* Build configuration list for PBXNativeTarget "Simpsons Character Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				263607BF2A02E1AB00C0765E /* Debug */,
 				263607C02A02E1AB00C0765E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263607E82A02FACA00C0765E /* Build configuration list for PBXNativeTarget "The Wire Character Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263607E92A02FACA00C0765E /* Debug */,
+				263607EA2A02FACA00C0765E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

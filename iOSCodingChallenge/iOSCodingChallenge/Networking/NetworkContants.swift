@@ -8,8 +8,14 @@
 import Foundation
 
 
-struct NetworkContants{
+struct NetworkContants {
+    
     static var url:URL {
-        return URL(string: "http://api.duckduckgo.com/?q=simpsons+characters&format=json")!
+        #if Simpsons
+            return URL(string: "http://api.duckduckgo.com/?q=simpsons+characters&format=json")!
+        #else
+            return URL(string: "http://api.duckduckgo.com/?q=the+wire+characters&format=json")!
+        #endif
+
     }
 }

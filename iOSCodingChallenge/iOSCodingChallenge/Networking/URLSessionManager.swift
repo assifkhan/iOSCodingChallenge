@@ -20,7 +20,6 @@ struct URLSessionManager {
             }
             do {
                 let decoder = JSONDecoder()
-                decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let decodedData = try decoder.decode(T.self, from: data)
                 completion(.success(decodedData))
             } catch let error {
